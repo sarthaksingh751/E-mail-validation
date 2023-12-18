@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email vadilation</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/email.svg" alt="error">
+                
+            </div>
+            <ul>
+                <li> <a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact Us</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+    <main>
+<div class="container">
+
+   
+    <form  action="/submit" method="post">
+        <!-- Text input for username -->
+        <label for="username"></label>
+        <input placeholder=" Enter Your Email  To Vadilate" type="text" id="username" name="username" required>
+        <br><br>
+    
+        <!-- Submit button -->
+        <input  id="submitBtn" class="btn" type="submit" value="Submit">
+      </form>
+
+</div>
+<div class="containers">
+    <h2> YOUR RESULTS</h2>
+    <div id="resultCont">
+        
+    </div>
+
+    
+</div>
+
+    </main>
+    <footer>
+       Copyright &copy |   iVadilate.com  | All Rights Reserved
+    </footer>
+    <script src="index.js"></script> 
+
+</body>
+</html>
